@@ -1,0 +1,11 @@
+.Todos{
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+    padding: 15px;
+    background-color: lightslategrey;
+}
+.InProgres{
+    display: flex;
+    background-color: rgb(61, 69, 70);
+}

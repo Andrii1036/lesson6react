@@ -1,0 +1,24 @@
+.LeftBar{
+    width: 15%;
+    height: 93vh;
+    background-color: rgb(61, 69, 70);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.LeftBar h3{
+    color: white;
+}
+
+.LeftBar a{
+    color: white;
+    text-decoration: none;
+
+}
+.LeftBar a:hover{
+    color: gold;
+}
+.LeftBar a:focus{
+    text-decoration:red underline;
+}

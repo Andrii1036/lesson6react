@@ -1,0 +1,37 @@
+.CreateToDo{
+    display: flex;
+    background-color:lightslategrey;
+    box-sizing: border-box;
+    width: 100%;
+}
+.MainContent{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.MainContent h4{
+    padding-left: 30px;
+}
+.MainContent h2{
+    color:green;
+    margin-top: 15px;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.MainContent h3{
+    margin: 0 auto;
+    color: red
+}
+.MainContent input{
+    height: 20px;
+}
+.MainContent button{
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+    height: 30px;
+}
+.red{
+    background-color: red;
+}

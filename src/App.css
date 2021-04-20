@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.Main{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.singleTodoContent{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.singleTodoContent h3{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
+.singleTodoContent p {
+    margin-top: 0px;
+    font-weight: 400;
+    margin-left: 10px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.link{
+    margin-top: 0;
+    border-radius: 5px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.renderTodos{
+    display:flex;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button button{
+    border-right: none;
+    cursor: pointer; 
+    width: 70px;
+}
+.red{
+    background-color: tomato;
+}
+.yellow{
+    background-color: yellow;
+    
+}
+.green{
+    background-color: green;
+}
+.colorRed{
+    color: red;
+}
+.colorYellow{
+    color:yellow;
 }

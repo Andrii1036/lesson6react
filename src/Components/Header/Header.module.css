@@ -1,0 +1,28 @@
+.Header{
+    display: flex;
+    width: 100%;
+    background-color: rgb(61, 69, 70);
+    height: 7vh;
+    box-sizing: border-box;
+    padding-left: 20px;
+    align-items:flex-end;
+    border-bottom: 2px solid white;
+    padding-bottom: 8px;
+}
+.Header a{
+    margin-right: 25px;
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Header a:hover {
+    color: gold;
+}
+.Header a:focus{
+    color:rgb(94, 4, 9);
+}
+.Header span{
+    font-size: 25px;
+    color:yellow;
+}
